@@ -13,13 +13,31 @@
         #successContainer{
             display: none;
         }
+
+        .btn{
+            background-color: greenyellow;
+            color: black;
+            outline: auto;
+            
+        }
+        .btn:hover{
+            background-color: indianred;
+        }
+        .nav-link:hover{
+            color: #409bff;
+            text-shadow: 2px 2px 5px ;
+            
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
-<body>
+<body style="font-family: raleway; background-image: url(https://images.pexels.com/photos/4202998/pexels-photo-4202998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-position: center; background-size: 1600px;">
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-md bg-body-tertiary px-4 py-3">
+        <nav class="navbar navbar-expand-md bg-body-tertiary px-4 py-2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Fruit Basket Management</a>
+                <a class="navbar-brand d-flex align-items-center" href="index.html"> <img class="me-1" src="https://cdn3d.iconscout.com/3d/premium/thumb/fruits-bowl-3d-icon-download-in-png-blend-fbx-gltf-file-formats--delicious-logo-fruit-food-drink-vol-1-pack-icons-8565552.png?f=webp" alt="logo" height="40" width="40">Fruit Basket Management</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -54,7 +72,7 @@
                 <option value="Perishable">Perishable</option>
                 <option value="Non-Perishable">Non-Perishable</option>
             </select><br>
-            <button class="btn btn-primary shadow">Add Fruits</button>
+            <button class="btn shadow">Add Fruits</button>
         </form>
 
     </main>
